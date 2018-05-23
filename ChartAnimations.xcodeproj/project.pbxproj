@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441DE9EB20B5D1F40065426B /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441DE9EA20B5D1F40065426B /* CircularProgressBar.swift */; };
 		44CA10E120B4C29C00A3D61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CA10E020B4C29C00A3D61F /* AppDelegate.swift */; };
 		44CA10E320B4C29C00A3D61F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CA10E220B4C29C00A3D61F /* ViewController.swift */; };
 		44CA10E620B4C29C00A3D61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CA10E420B4C29C00A3D61F /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		441DE9EA20B5D1F40065426B /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
 		44CA10DD20B4C29C00A3D61F /* ChartAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CA10E020B4C29C00A3D61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44CA10E220B4C29C00A3D61F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				44CA10E020B4C29C00A3D61F /* AppDelegate.swift */,
 				44CA10E220B4C29C00A3D61F /* ViewController.swift */,
+				441DE9EA20B5D1F40065426B /* CircularProgressBar.swift */,
 				44CA10E420B4C29C00A3D61F /* Main.storyboard */,
 				44CA10E720B4C29C00A3D61F /* Assets.xcassets */,
 				44CA10E920B4C29C00A3D61F /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			files = (
 				44CA10E320B4C29C00A3D61F /* ViewController.swift in Sources */,
 				44CA10E120B4C29C00A3D61F /* AppDelegate.swift in Sources */,
+				441DE9EB20B5D1F40065426B /* CircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
