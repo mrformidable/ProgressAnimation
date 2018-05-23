@@ -28,14 +28,14 @@
 
 /* Begin PBXFileReference section */
 		441DE9EA20B5D1F40065426B /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
-		44CA10DD20B4C29C00A3D61F /* ChartAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CA10DD20B4C29C00A3D61F /* ProgressAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CA10E020B4C29C00A3D61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44CA10E220B4C29C00A3D61F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44CA10E520B4C29C00A3D61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44CA10E720B4C29C00A3D61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44CA10EA20B4C29C00A3D61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44CA10EC20B4C29C00A3D61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44CA10F120B4C29C00A3D61F /* ChartAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CA10F120B4C29C00A3D61F /* ProgressAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CA10F520B4C29C00A3D61F /* ChartAnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartAnimationsTests.swift; sourceTree = "<group>"; };
 		44CA10F720B4C29C00A3D61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,8 +70,8 @@
 		44CA10DE20B4C29C00A3D61F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44CA10DD20B4C29C00A3D61F /* ChartAnimations.app */,
-				44CA10F120B4C29C00A3D61F /* ChartAnimationsTests.xctest */,
+				44CA10DD20B4C29C00A3D61F /* ProgressAnimation.app */,
+				44CA10F120B4C29C00A3D61F /* ProgressAnimationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44CA10DC20B4C29C00A3D61F /* ChartAnimations */ = {
+		44CA10DC20B4C29C00A3D61F /* ProgressAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44CA10FA20B4C29C00A3D61F /* Build configuration list for PBXNativeTarget "ChartAnimations" */;
+			buildConfigurationList = 44CA10FA20B4C29C00A3D61F /* Build configuration list for PBXNativeTarget "ProgressAnimation" */;
 			buildPhases = (
 				44CA10D920B4C29C00A3D61F /* Sources */,
 				44CA10DA20B4C29C00A3D61F /* Frameworks */,
@@ -114,14 +114,14 @@
 			);
 			dependencies = (
 			);
-			name = ChartAnimations;
+			name = ProgressAnimation;
 			productName = ChartAnimations;
-			productReference = 44CA10DD20B4C29C00A3D61F /* ChartAnimations.app */;
+			productReference = 44CA10DD20B4C29C00A3D61F /* ProgressAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		44CA10F020B4C29C00A3D61F /* ChartAnimationsTests */ = {
+		44CA10F020B4C29C00A3D61F /* ProgressAnimationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44CA10FD20B4C29C00A3D61F /* Build configuration list for PBXNativeTarget "ChartAnimationsTests" */;
+			buildConfigurationList = 44CA10FD20B4C29C00A3D61F /* Build configuration list for PBXNativeTarget "ProgressAnimationTests" */;
 			buildPhases = (
 				44CA10ED20B4C29C00A3D61F /* Sources */,
 				44CA10EE20B4C29C00A3D61F /* Frameworks */,
@@ -132,9 +132,9 @@
 			dependencies = (
 				44CA10F320B4C29C00A3D61F /* PBXTargetDependency */,
 			);
-			name = ChartAnimationsTests;
+			name = ProgressAnimationTests;
 			productName = ChartAnimationsTests;
-			productReference = 44CA10F120B4C29C00A3D61F /* ChartAnimationsTests.xctest */;
+			productReference = 44CA10F120B4C29C00A3D61F /* ProgressAnimationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44CA10D820B4C29C00A3D61F /* Build configuration list for PBXProject "ChartAnimations" */;
+			buildConfigurationList = 44CA10D820B4C29C00A3D61F /* Build configuration list for PBXProject "ProgressAnimation" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,8 +171,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44CA10DC20B4C29C00A3D61F /* ChartAnimations */,
-				44CA10F020B4C29C00A3D61F /* ChartAnimationsTests */,
+				44CA10DC20B4C29C00A3D61F /* ProgressAnimation */,
+				44CA10F020B4C29C00A3D61F /* ProgressAnimationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,7 +221,7 @@
 /* Begin PBXTargetDependency section */
 		44CA10F320B4C29C00A3D61F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44CA10DC20B4C29C00A3D61F /* ChartAnimations */;
+			target = 44CA10DC20B4C29C00A3D61F /* ProgressAnimation */;
 			targetProxy = 44CA10F220B4C29C00A3D61F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -396,7 +396,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartAnimations.app/ChartAnimations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressAnimation.app/ProgressAnimation";
 			};
 			name = Debug;
 		};
@@ -413,14 +413,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartAnimations.app/ChartAnimations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressAnimation.app/ProgressAnimation";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44CA10D820B4C29C00A3D61F /* Build configuration list for PBXProject "ChartAnimations" */ = {
+		44CA10D820B4C29C00A3D61F /* Build configuration list for PBXProject "ProgressAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44CA10F820B4C29C00A3D61F /* Debug */,
@@ -429,7 +429,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44CA10FA20B4C29C00A3D61F /* Build configuration list for PBXNativeTarget "ChartAnimations" */ = {
+		44CA10FA20B4C29C00A3D61F /* Build configuration list for PBXNativeTarget "ProgressAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44CA10FB20B4C29C00A3D61F /* Debug */,
@@ -438,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44CA10FD20B4C29C00A3D61F /* Build configuration list for PBXNativeTarget "ChartAnimationsTests" */ = {
+		44CA10FD20B4C29C00A3D61F /* Build configuration list for PBXNativeTarget "ProgressAnimationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44CA10FE20B4C29C00A3D61F /* Debug */,

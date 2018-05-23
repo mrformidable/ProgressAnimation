@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ChartAnimations.xcodeproj">
+      location = "self:/Users/MichaelAi/Desktop/ChartAnimations/ProgressAnimation.xcodeproj">
    </FileRef>
 </Workspace>
